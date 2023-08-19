@@ -1,0 +1,53 @@
+---
+title: Random quotes to ruin your mood
+tab: Quotes
+layout: other
+---
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="keywords" content="environmentalism, climate change, collapse">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="shortcut icon" href="../../images/favicon.png">
+   <style>
+    .container {
+      padding-bottom: 50px;
+    }
+
+    @media (max-width:1024px) {
+      .line {
+        visibility: collapse;
+      }
+    }
+  </style>
+  <script>
+   var textarray = [
+       "Give up on your dreams and die!",
+       "Tomorrow will be even worse...",
+       "Do you really want to know how many people thought about you today?",
+       "Many people are probably disappointed in you right now",
+       "Ew!",
+       "Shouldn't you be productive currently?",
+       "Live, Laugh, Love",
+       "You could have it so much worse, just be happy",
+       "You should smile more",
+       "Look at me, I have problems, too",
+       "Why can't I just imagine a starving African child and just be fucking happy? (Jreg reference)",
+       "Happiness merely comes from a lack of knowledge",
+       "Try again tomorrow",
+       "Have you tried working out more?",
+       ];
+   function RndText() {
+   var rannum= Math.floor(Math.random()*textarray.length);
+   document.getElementById("message").innerHTML=textarray[rannum];
+   }
+   onload = function() { RndText(); }
+</script>
+</head>
+
+
+
+    <section style="padding: 0; margin: 0;">
+      <p id="message"> </p>
+    </section>

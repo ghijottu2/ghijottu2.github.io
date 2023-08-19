@@ -1,0 +1,99 @@
+/* Homepage HTML*/
+@font-face {
+	font-family: "C161";
+	src: url("../fonts/C161.ttf") format("truetype"); /* C161 is my own font made with metaflop modulator: https://www.metaflop.com/modulator */
+}
+
+@font-face {
+	font-family: "CirrusCumulus";
+	src: url("../fonts/CirrusCumulus.ttf") format("truetype"); /* CirrusCumulus is a font created created by Clara Sambot. You can get it from Velvetyne: https://velvetyne.fr/fonts/cirruscumulus/ */
+}
+
+body {
+	font-family: C161;
+	background-color: #111;
+	color: #eee;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	text-align: left;
+	transition: background 0.25s ease-in;
+}
+
+a {
+	text-decoration: none;
+	color: #eee;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+::selection {
+	background: crimson;
+}
+
+
+/* Homepage custom classes*/
+.name{
+    font-family: CirrusCumulus;
+    font-size: 84px;
+    text-align: center;
+    letter-spacing: 42px;
+}
+
+@media (max-width:400px) {
+	.name {
+		font-size: 70px;
+		letter-spacing: 35;
+	}
+}
+
+.main-table-desktop {
+	font-family: 'Times New Roman', Times, serif;
+	border-collapse: collapse;
+	position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width:924px) {
+	.main-table-desktop {
+		display: none;
+	}
+}
+
+.main-table-mobile{
+	font-family: 'Times New Roman', Times, serif;
+	visibility: collapse;
+	border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 42px;
+}
+
+@media (max-width:924px) {
+	.main-table-mobile {
+		visibility: visible;
+	}
+}
+
+.quad {
+	min-width: 300px;
+	height: 300px;
+	border: 3px solid #eee;
+	text-align: center;
+	font-size: 60px;
+}
+
+.quad:hover {
+	background-color: #eee;
+	color: #111;
+	transition: 0.42s;
+}
+
+.quad:hover a {
+	color: #111;
+}
+
