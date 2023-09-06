@@ -30,15 +30,13 @@ An extended version of Mike Kuketz's <a href="https://www.messenger-matrix.de/">
 * Checksums available
 * Installation requirement
 * Works without Google Play Services
-* Last public client audit
-* Last public protocol audit
+* Last public audit
 <br><br>
 * Windows
 * macOS
 * Web (separate category)
 * Desktop (separate category)
 <br><br>
-* Cryptographic primitives
 * End-to-end encrypted 2-user chat
 * End-to-end encrypted group chat
 * End-to-end encryption is turned on by default
@@ -75,7 +73,6 @@ An extended version of Mike Kuketz's <a href="https://www.messenger-matrix.de/">
 <br>
 
 #### Changed and renamed categories
-* Last security audit	➤ Last public client audit / Last public protocol audit (2 separate categories)
 * Web/Desktop	➤ Web / Desktop (2 separate categories)
 * Tracker integration (displays number of trackers provided by <a href="https://exodus-privacy.eu.org/">Exodus</a> now)
 * Audio-/Video-chats ➤ Audio-calls / Video-calls (2 separate categories)

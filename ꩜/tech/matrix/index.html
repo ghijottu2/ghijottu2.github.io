@@ -23,7 +23,7 @@
     <table id="demo" border="1" class="dataframe TF">
       <thead>
         <tr style="text-align: center;">
-          <th>Last updated: 24.08.2023</th>
+          <th>Last updated: 25.08.2023</th>
           <th class="frow1 span"><span>Price</span></th>
           <th class="frow1 span"><span class="span">Repository</span></th>
           <th class="frow1 span"><span class="span">Software license</span></th>
@@ -47,7 +47,6 @@
           <th class="" style="background-color:#fff; border-top: #fff;border-bottom: #fff;padding: 20px;"></th>
 
           <th class=""><span class="span">Encryption protocol / library</span></th>
-          <th class="" style="min-width: 250px;"><span class="span">Cryptographic primitives</span></th>
           <th class=""><span class="span">End-to-end encryption</span></th>
           <th class=""><span class="span">End-to-end encrypted <br />2-user chat</span></th>
           <th class=""><span class="span">End-to-end encrypted group chat</span></th>
@@ -128,7 +127,6 @@
 			<td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
             <td class="encryption"></td>
-            <td class="primitives"style="text-align:left;"></td>
             <td class="e2ee"></td>
             <td class="e2ee-2-user"></td>
             <td class="e2ee-group"></td>
@@ -209,7 +207,6 @@
         <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://berty.tech/docs/protocol">Berty protocol</a></td>
-          <td class="primitives"style="text-align:left;">Encryption: <a href="https://berty.tech/docs/protocol#key-types">X25519</a><br> Signature: <a href="https://berty.tech/docs/protocol#key-types">Ed25519</a><br> KDF: <a href="https://berty.tech/docs/protocol#encryption">HKDF</a></td>
           <td class="e2ee n-yes"><a href="https://berty.tech/docs/protocol/#encryption">Yes</a< /td>
           <td class="e2ee-2-user n-yes"><a href="https://berty.tech/docs/protocol/#encryption">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://berty.tech/docs/protocol/#encryption">Yes</td>
@@ -284,7 +281,7 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="android n-yes">Yes</td>
-          <td class="ios n-no">No</td>
+          <td class="ios n-no"><a href="https://code.briarproject.org/briar/briar/-/wikis/FAQ#will-there-be-an-ios-version-of-briar">No</a></td>
           <td class="windows n-yes">Yes</td>
           <td class="macos n-yes">Yes</td>
           <td class="linux n-yes">Yes</td>
@@ -292,7 +289,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://code.briarproject.org/briar/briar-spec/-/tree/master/">Bramble</a></td>
-          <td class="primitives"style="text-align:left;">Key exchange: <a href="https://code.briarproject.org/briar/briar-spec/-/blob/master/protocols/BRP.md#14-cryptographic-primitives">X25519</a><br> Elliptic curve: <a href="https://code.briarproject.org/briar/briar/-/merge_requests/693">Curve25519</a><br> Hash function: <a href="https://code.briarproject.org/briar/briar-spec/-/blob/master/protocols/BRP.md#14-cryptographic-primitives">BLAKE2b</a><br> Stream cipher: <a href="https://code.briarproject.org/briar/briar-spec/-/blob/master/protocols/BRP.md#14-cryptographic-primitives">Salsa20</a><br> MAC: <a href="https://code.briarproject.org/briar/briar-spec/-/blob/master/protocols/BHP.md#14-cryptographic-primitives">BLAKE2b</a></td>
           <td class="e2ee n-yes"><a href="https://briarproject.org/how-it-works/">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://briarproject.org/how-it-works/">Yes</a></td>
           <td class="e2ee-group n-yes">Yes</td>
@@ -311,8 +307,8 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="server-structure n-yes"><a href="https://briarproject.org/">Distributed Peer-to-peer</a></td>
-          <td class="hosting n-yes">N/A (no servers)</td>
-          <td class="os-server n-yes">N/A (no servers)</td>
+          <td class="hosting n-yes"><a href="https://briarproject.org/how-it-works/">N/A (no servers)</a></td>
+          <td class="os-server n-yes"><a href="https://briarproject.org/how-it-works/">N/A (no servers)</a></td>
           <td class="transparency-report n-no">No</td>
           <td class="infrastructure-jurisdiction">—</td>
           <td class="jurisdiction-company">UK</td>
@@ -380,7 +376,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://conversations.im/omemo/">OMEMO</a></td>
-          <td class="primitives"style="text-align:left;">Elliptic curve: <a href="https://xmpp.org/extensions/xep-0384.html#protocol-key_exchange">Curve25519/Ed25519</a><br> MAC: <a href="https://xmpp.org/extensions/xep-0384.html#protocol-double_ratchet">HMAC-SHA256</a><br> Hash function: <a href="https://xmpp.org/extensions/xep-0384.html#protocol-key_exchange">SHA-256</a><br> Symmetric encryption: <a href="https://xmpp.org/extensions/xep-0384.html#protocol-message_encryption">AES-256-CBC</a></td>
           <td class="e2ee n-yes"><a href="https://xmpp.org/extensions/xep-0384.html#reqs">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://xmpp.org/extensions/xep-0384.html#reqs">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://xmpp.org/extensions/xep-0384.html#group-chats">Yes</a></td>
@@ -465,7 +460,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
             <td class="encryption"><a href="https://coy.im/documentation/security-end-to-end-security/">OTR3</a></td>
-            <td class="primitives"style="text-align:left;">Symmetric encryption: <a href="https://coy.im/documentation/security-end-to-end-security/">AES-128-CTR</a><br> Hash function: <a href="https://coy.im/documentation/security-end-to-end-security/">SHA-1</a><br> MAC: <a href="https://coy.im/documentation/security-end-to-end-security/">HMAC-SHA256</a></td>
             <td class="e2ee n-yes">Yes</td>
             <td class="e2ee-2-user n-yes">Yes</td>
             <td class="e2ee-group n-no"><a href="https://coy.im/documentation/security-chat-rooms/">No</a></td>
@@ -548,7 +542,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">Tor hidden services/TLS</td>
-          <td class="primitives"style="text-align:left;">Curve25519 / AES-128</td>
           <td class="e2ee n-yes">Yes</td>
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group n-yes"><a href="https://docs.cwtch.im/docs/groups/introduction#how-groups-work-under-the-hood">Yes</a></td>
@@ -630,7 +623,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">OpenPGP <br>with Autocrypt</td>
-          <td class="primitives"style="text-align:left;"></td>
           <td class="e2ee n-part"><a href="https://delta.chat/en/help#does-delta-chat-support-end-to-end-encryption">Only DC contacts</a></td>
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group n-yes"><a href="https://delta.chat/en/help#what-is-a-verified-group-why-is-it-experimental">Yes</a></td>
@@ -712,7 +704,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">TLS</td>
-          <td class="primitives"style="text-align:left;"></td>
           <td class="e2ee n-no"><a href="https://discord.com/safety/360043700632-Discord's-commitment-to-a-safe-and-trusted-experience">No</td>
           <td class="e2ee-2-user n-no"><a href="https://discord.com/safety/360043700632-Discord's-commitment-to-a-safe-and-trusted-experience">No</td>
           <td class="e2ee-group n-no"><a href="https://discord.com/safety/360043700632-Discord's-commitment-to-a-safe-and-trusted-experience">No</td>
@@ -794,7 +785,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://gitlab.matrix.org/matrix-org/olm">Olm / Megolm</a></td>
-          <td class="primitives"style="text-align:left;">Key agreement: X3DH Curve25519<br> Fingerprint key pair: <a href="https://matrix.org/docs/guides/end-to-end-encryption-implementation-guide#ed25519-fingerprint-key-pair">Ed25519</a><br> Identity key pair: <a href="https://matrix.org/docs/guides/end-to-end-encryption-implementation-guide#curve25519-identity-key-pair">Curve25519</a><br> One-time keys: <a href="https://matrix.org/docs/guides/end-to-end-encryption-implementation-guide#curve25519-one-time-keys">Curve25519</a><br> Message encryption: <a href="https://gitlab.matrix.org/matrix-org/olm/-/blob/master/docs/olm.md#olm-authenticated-encryption">AES-256-CBC</a><br> MAC: <a href="https://gitlab.matrix.org/matrix-org/olm/-/blob/master/docs/olm.md#the-olm-algorithm">HMAC-SHA256</a><br> KDF: <a href="https://gitlab.matrix.org/matrix-org/olm/-/blob/master/docs/olm.md#the-olm-algorithm">HKDF-SHA256</a></td>
           <td class="e2ee n-yes"><a href="https://element.io/enterprise/end-to-end-encryption">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://element.io/enterprise/end-to-end-encryption">Yes</a></td>
           <td class="e2ee-2-group n-yes">Yes</td>
@@ -877,7 +867,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">Signal Protocol (unverifable)</td>
-          <td class="primitives"style="text-align:left;">Public keys: Curve25519<br>Identity key pair: Curve25519<br> MAC: HMAC-SHA256</td>
           <td class="e2ee n-yes">Yes</td>
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group n-no">No</td>
@@ -959,7 +948,6 @@
 			<td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
             <td class="encryption"><a href="https://en.wikipedia.org/wiki/OMEMO"><span style="14px color:#337ab7; font-family:'Arial'; font-size:14px"><a href="https://dev.gajim.org/gajim/gajim-plugins/-/wikis/OmemoGajimPlugin">OMEMO (not default)</a></td>
-            <td class="primitives"style="text-align:left;">Curve25519/Ed25519 / AES-256 / HMAC-SHA256</td>
             <td class="e2ee n-yes">Yes</td>
             <td class="e2ee-2-user n-yes">Yes</td>
             <td class="e2ee-group n-part">Only with plugin</td>
@@ -1043,7 +1031,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">AES</td>
-          <td class="primitives"style="text-align:left;">RSA-2048 / AES-256</td>
           <td class="e2ee n-yes">Yes</td> <!-- ??? AES is not an e2ee algorithm --->
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group n-yes">Yes</td>
@@ -1125,7 +1112,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">RSA-Keys (4096-Bit)</td>
-          <td class="primitives"style="text-align:left;">RSA-4096 PKI / AES-256</td>
           <td class="e2ee n-yes">Yes</td>
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group n-no">No</td>
@@ -1207,7 +1193,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">Proprietary, unknown</td>
-          <td class="primitives"style="text-align:left;">MAC: <a href="https://support.apple.com/en-gb/guide/security/sec70e68c949/web">HMAC-SHA256</a><br> Encryption: <a href="https://support.apple.com/en-gb/guide/security/sec70e68c949/web">AES-CTR</a><br> Signature: <a href="https://support.apple.com/en-gb/guide/security/sec70e68c949/web">ECDSA</a></td>
           <td class="e2ee n-yes">Yes</td>
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group n-yes">Yes</td>
@@ -1289,7 +1274,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://github.com/signalapp/libsignal">Signal Protocol</a></td>
-          <td class="primitives"style="text-align:left;">Key agreement: X3DH<br> Symmetric encryption: AES-256-CBC<br> Elliptic curve: Curve25519<br> MAC: HMAC-SHA256<br> KDF: HKDF-SHA256</td>
           <td class="e2ee n-yes"><a href="https://signal.org/en/">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://signal.org/en/">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://signal.org/blog/private-groups/">Yes</a></td>
@@ -1375,7 +1359,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
             <td class="encryption">Olvid messaging protocol</td>
-            <td class="primitives"style="text-align:left;">Hash function: SHA-256<br> MAC: HMAC-SHA256<br> KDF: KDF-SHA256<br> Block cipher: AES-256<br> Symmetric encryption: AES-256-CTR<br></td>
             <td class="e2ee n-yes">Yes</td>
             <td class="e2ee-2-user n-yes">Yes</td>
             <td class="e2ee-group n-yes">Yes</td>
@@ -1455,7 +1438,6 @@
         			<td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
                     <td class="encryption">libp2p/IPFS over Tor</td>
-                    <td class="primitives"style="text-align:left;"></td>
                     <td class="e2ee n-yes">Yes</td>
                     <td class="e2ee-2-user">N/A (no direct messages)</td>
                     <td class="e2ee-group n-yes">Yes</td>
@@ -1538,7 +1520,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">TLS 1.3 (OpenSSL)</td>
-          <td class="primitives"style="text-align:left;">TLS_AES_256_GCM_SHA384 / Chacha20+poly1305</td>
           <td class="e2ee n-yes">Yes</td>
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group n-no">No</td>
@@ -1620,7 +1601,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://github.com/blueprint-freespeech/ricochet-refresh/blob/main/doc/protocol.md#hidden-services">Tor hidden services/TLS</a></td>
-          <td class="primitives"style="text-align:left;">Onion service identity verification: <a href="https://github.com/blueprint-freespeech/ricochet-refresh/blob/main/doc/protocol.md#proof" title="Apart from the underlying cryptographic primitives of the Tor network to protect traffic contents, Ricochet-Refresh also uses ed25519 keys (as described in the tor specs) for onion service identity verification">ed25519</a></td>
           <td class="e2ee n-yes">Yes</td>
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group"> N/A (no group chat)</td>
@@ -1702,7 +1682,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://getsession.org/blog/session-protocol-technical-information">Session Protocol (NaCl)</a></td>
-          <td class="primitives"style="text-align:left;" title="Double Ratchet, 3XDH handshake, using Curve25519, AES-256, and HMAC-SHA256 primitives, Session IDs are X25519 Key pairs, and Onion requests X25519 with HMAC-SHA256 for deriving symmetric key, then AES-256 with that key">Identity key pair: <a href="https://getsession.org/blog/session-protocol-technical-information">X25519</a><br> MAC: HMAC-SHA256<br></td>
           <td class="e2ee n-yes"><a href="https://getsession.org/blog/session-protocol-technical-information">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://getsession.org/blog/session-protocol-technical-information">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://getsession.org/blog/session-protocol-technical-information">Yes</a></td>
@@ -1784,7 +1763,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://github.com/signalapp/libsignal">Signal Protocol</a></td>
-          <td class="primitives"style="text-align:left;">Key agreement: X3DH<br> Symmetric encryption: AES-256-CBC<br> Elliptic curve: Curve25519<br> MAC: HMAC-SHA256<br> KDF: HKDF-SHA256</td>
           <td class="e2ee n-yes"><a href="https://signal.org/en/">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://signal.org/en/">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://signal.org/blog/private-groups/">Yes</a></td>
@@ -1866,7 +1844,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://github.com/simplex-chat/simplex-chat#privacy-technical-details-and-limitations">Double Ratchet / NaCl</a></td>
-          <td class="primitives"style="text-align:left;">Key negotiation: <a href="https://github.com/simplex-chat/simplexmq/blob/master/protocol/overview-tjr.md#encryption-primitives-used">Curve25519</a><br> Initial key agreement: <a href="https://github.com/simplex-chat/simplexmq/blob/master/protocol/overview-tjr.md#encryption-primitives-used">Ed448</a><br>KDF: <a href="https://github.com/simplex-chat/simplexmq/blob/master/protocol/overview-tjr.md#encryption-primitives-used">HKDF-SHA512</a><br> Shared secret agreement: <a href="https://github.com/simplex-chat/simplexmq/blob/master/protocol/overview-tjr.md#encryption-primitives-used">Curve448</a><br>Message body encryption: <a href="https://github.com/simplex-chat/simplexmq/blob/master/protocol/overview-tjr.md#encryption-primitives-used">curve25519xsalsa20poly1305</a></td>
           <td class=">e2ee n-yes"><a href="https://github.com/simplex-chat/simplex-chat#privacy-technical-details-and-limitations">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://github.com/simplex-chat/simplex-chat#privacy-technical-details-and-limitations">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://github.com/simplex-chat/simplex-chat#privacy-technical-details-and-limitations">Yes</a></td>
@@ -1949,7 +1926,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://conversations.im/omemo/">OMEMO</a></td>
-          <td class="primitives"style="text-align:left;">Elliptic curve: <a href="https://xmpp.org/extensions/xep-0384.html#protocol-key_exchange">Curve25519/Ed25519</a><br> MAC: <a href="https://xmpp.org/extensions/xep-0384.html#protocol-double_ratchet">HMAC-SHA256</a><br> Hash function: <a href="https://xmpp.org/extensions/xep-0384.html#protocol-key_exchange">SHA-256</a><br> Symmetric encryption: <a href="https://xmpp.org/extensions/xep-0384.html#protocol-message_encryption">AES-256-CBC</a></td>
           <td class="e2ee n-yes">Yes</td>
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group"></td>
@@ -2034,7 +2010,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">Skype Protocol / Signal Protocol</td>
-          <td class="primitives"style="text-align:left;">Encryption: <a href="https://support.skype.com/en/faq/FA31/does-skype-use-encryption">AES-256</a></td>
           <td class="e2ee n-part"><a href="https://az705183.vo.msecnd.net/onlinesupportmedia/onlinesupport/media/skype/documents/skype-private-conversation-white-paper.pdf#page=3">Only in "Private Conversations"</a></td>
           <td class="e2ee-2-user n-part"><a href="https://az705183.vo.msecnd.net/onlinesupportmedia/onlinesupport/media/skype/documents/skype-private-conversation-white-paper.pdf#page=3">Only in "Private Conversations"</a></td>
           <td class="e2ee-group n-no">No</td>
@@ -2116,7 +2091,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://github.com/Speek-App/Speek/blob/main/doc/protocol.md">Speek Protocol / Tor hidden services</a></td>
-          <td class="primitives"style="text-align:left;">DHE handshake / Curve25519 / HMAC-SHA256 / RSA-2048</td>
           <td class="e2ee n-yes"><a href="https://github.com/Speek-App/Speek/blob/main/doc/protocol.md#hidden-services">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://github.com/Speek-App/Speek/blob/main/doc/protocol.md#hidden-services">Yes</a></td>
           <td class="e2ee-group">N/A (no group chat)</td>
@@ -2198,7 +2172,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://core.telegram.org/mtproto">MTProto 2.0</a></td>
-          <td class="primitives"style="text-align:left;">RSA-2048 / AES-256 / SHA-256</td>
           <td class="e2ee n-part">Only individual chats (optional)</td>
           <td class="e2ee-2-user n-part"><a href="https://core.telegram.org/api/end-to-end">Only in "Secret Chat"</a></td>
           <td class="e2ee-group n-no">No</td>
@@ -2280,7 +2253,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://threema.ch/en/faq/why_secure">NaCI</a></span></a></td>
-          <td class="primitives"style="text-align:left;">Elliptic Curve: <a href="https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf#page=7">ECDH on Curve25519</a><br> Stream cipher: <a href="https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf#page=7">XSalsa20 / HSalsa20</a><br>MAC: <a href="https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf#page=7">Poly1305</a></td>
           <td class="e2ee n-yes"><a href="https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf#page=5">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf#page=5">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf#page=8">Yes</a></td>
@@ -2362,7 +2334,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption">NaCI</span></a></td>
-          <td class="primitives"style="text-align:left;">Key exchange: Curve25519<br>Stream cipher: Salsa20<br> MAC: Poly1305-AES</td>
           <td class="e2ee n-yes">Yes</td>
           <td class="e2ee-2-user n-yes">Yes</td>
           <td class="e2ee-group">N/A (no group chat)</td>
@@ -2444,7 +2415,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf">Proprietary / unknown</td>
-          <td class="primitives"style="text-align:left;">Identity key pair: <a href="https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf#page=2">Curve25519</a><br> PreKeys: <a href="https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf#page=2">Curve25519</a><br> MAC: <a href="https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf#page=4">HMAC-SHA256</a></td>
           <td class="e2ee n-yes"><a href="https://www.viber.com/en/security/">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://www.viber.com/en/security/">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://www.viber.com/app/uploads/viber-encryption-overview.pdf#page=5">Yes</a></td>
@@ -2526,7 +2496,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://scontent-muc2-1.xx.fbcdn.net/v/t39.8562-6/271639644_1080641699441889_2201546141855802968_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=Nyf9zAM64SIAX8oN0NH&_nc_ht=scontent-muc2-1.xx&oh=00_AT8Alqu7lCjbBY5Nw0lDwcaM4W1ENWV3dXZMZJJw8Li4mw&oe=630A16FD#page=3">Signal Protocol (unverifable)</a></td>
-          <td class="primitives"style="text-align:left;"><a href="https://scontent-muc2-1.xx.fbcdn.net/v/t39.8562-6/271639644_1080641699441889_2201546141855802968_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=Nyf9zAM64SIAX8oN0NH&_nc_ht=scontent-muc2-1.xx&oh=00_AT8Alqu7lCjbBY5Nw0lDwcaM4W1ENWV3dXZMZJJw8Li4mw&oe=630A16FD#page=4">Curve25519 / AES-256 / HMAC-SHA256</a></td>
           <td class="e2ee n-yes"><a href="https://scontent-muc2-1.xx.fbcdn.net/v/t39.8562-6/271639644_1080641699441889_2201546141855802968_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=Nyf9zAM64SIAX8oN0NH&_nc_ht=scontent-muc2-1.xx&oh=00_AT8Alqu7lCjbBY5Nw0lDwcaM4W1ENWV3dXZMZJJw8Li4mw&oe=630A16FD#page=3">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://scontent-muc2-1.xx.fbcdn.net/v/t39.8562-6/271639644_1080641699441889_2201546141855802968_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=Nyf9zAM64SIAX8oN0NH&_nc_ht=scontent-muc2-1.xx&oh=00_AT8Alqu7lCjbBY5Nw0lDwcaM4W1ENWV3dXZMZJJw8Li4mw&oe=630A16FD#page=3">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://scontent-muc2-1.xx.fbcdn.net/v/t39.8562-6/271639644_1080641699441889_2201546141855802968_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=Nyf9zAM64SIAX8oN0NH&_nc_ht=scontent-muc2-1.xx&oh=00_AT8Alqu7lCjbBY5Nw0lDwcaM4W1ENWV3dXZMZJJw8Li4mw&oe=630A16FD#page=10">Yes</a></td>
@@ -2608,7 +2577,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://wickr.com/wickrs-messaging-protocol/">Wickr Messaging Protocol</a></td>
-          <td class="primitives"style="text-align:left;">Signatures and key agreement: <a href="https://wickr.com/the-bit-security-of-cryptographic-primitives-2/#attachment_2091">ECDSA and ECDH on Curve P-521</a><br> KDF: <a href="https://wickr.com/the-bit-security-of-cryptographic-primitives-2/#attachment_2091">HKDF-SHA256</a><br> Symmetric encryption: <a href="https://wickr.com/the-bit-security-of-cryptographic-primitives-2/#attachment_2091">AES-256-GCM</a></a></td>
           <td class="e2ee n-yes"><a href="https://wickr.com/wickrs-messaging-protocol/">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://wickr.com/wickrs-messaging-protocol/">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://wickr.com/wickrs-messaging-protocol/">Yes</a></td>
@@ -2690,7 +2658,6 @@
       <td style="border-color: #fff;background-color:#fff;border-right-color: #000;"></td>
 
           <td class="encryption"><a href="https://github.com/wireapp/proteus">Proteus</a></td>
-          <td class="primitives"style="text-align:left;">Elliptic curve: <a href="https://github.com/wireapp/proteus#proteus">Curve25519</a><br> Stream cipher: <a href="https://github.com/wireapp/proteus#proteus">ChaCha20</a><br> MAC: <a href="https://github.com/wireapp/proteus#proteus">HMAC-SHA256</a><br>KDF: <a href="https://github.com/wireapp/proteus#proteus">HKDF</a></a></td>
           <td class="e2ee n-yes"><a href="https://support.wire.com/hc/en-us/articles/4405940312081-Security-Overview">Yes</a></td>
           <td class="e2ee-2-user n-yes"><a href="https://support.wire.com/hc/en-us/articles/4405940312081-Security-Overview">Yes</a></td>
           <td class="e2ee-group n-yes"><a href="https://wire.com/en/product/messaging/">Yes</a></td>
@@ -2756,10 +2723,10 @@
       base_path: 'tablefilter/',
       col_12: 'none',
       col_19: 'none',
-      col_37: 'none',
-      col_45: 'none',
-      col_64: 'none',
-      col_68: 'none',
+      col_36: 'none',
+      col_44: 'none',
+      col_63: 'none',
+      col_67: 'none',
       auto_filter: {
         delay: 200 //milliseconds
       },

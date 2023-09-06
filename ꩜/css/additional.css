@@ -10,9 +10,10 @@
 }
 
 .container {
-	margin-right: 20%;
-	min-width: 320px;
 	width: 50%;
+	min-width: 320px;
+	margin-right: 20%;
+
 }
 
 .heading {
@@ -23,9 +24,9 @@
 /* Art */
 .art-title {
 	display: inline;
-	vertical-align: bottom;
-	margin-left: 20px;
 	padding-bottom: 25px;
+	margin-left: 20px;
+	vertical-align: bottom;
 }
 
 .thumbnail {
@@ -47,9 +48,9 @@
 }
 
 .row::after {
+	display: table;
 	content: "";
 	clear: both;
-	display: table;
 }
 
 @media (max-width:950px) {
@@ -60,25 +61,37 @@
 }
 
 .iframe-container {
+	position: relative;
 	overflow: hidden;
 	padding-top: 56.25%;
-	position: relative;
 	margin-top: 100px;
 }
 
 .iframe-container iframe {
-	border: 0;
-	height: 80%;
-	left: 0;
 	position: absolute;
 	top: 0;
+	left: 0;
 	width: 80%;
+	height: 80%;
+	border: 0;
 }
 
 
 /* Books */
+.literature-table{
+	vertical-align: top; 
+	font-family: monospace; 
+	font-size: 18px;
+}
+
 .tc-link {
 	color: crimson;
+}
+
+.excerpt{
+	text-align: justify; 
+	max-width: 666px; 
+	padding: 0px 20px 0px 0px;
 }
 
 
@@ -175,6 +188,7 @@
 /* Idea */
 .exp{
 	max-width: 50%;
+	padding-bottom: 50px;
 }
 
 @media (max-width:512px) {
