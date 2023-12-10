@@ -73,7 +73,7 @@ a:hover {
 
 @media (max-width:924px) {
 	.main-table-mobile {
-		display: initial;
+		display: table;
 	}
 }
 

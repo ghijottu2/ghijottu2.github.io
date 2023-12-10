@@ -120,7 +120,7 @@
 
 .misc-table-mobile {
 	font-family: 'Times New Roman', Times, serif;
-	visibility: collapse;
+	display: none;
 	border-collapse: collapse;
 	margin-bottom: 42px;
 	margin-left: auto;
@@ -129,7 +129,7 @@
 
 @media (max-width:924px) {
 	.misc-table-mobile {
-		visibility: visible;
+		display: table;
 	}
 }
 
