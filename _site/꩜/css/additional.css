@@ -33,6 +33,7 @@
 .thumbnail {
 	display: inline-block;
 	vertical-align: top;
+	border-radius: 30px;
 }
 
 @media (max-width:580px) {
